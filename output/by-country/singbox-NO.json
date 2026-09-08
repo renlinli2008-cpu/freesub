@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - xiaohe"
+        "🇳🇴 NO 01 - erduo",
+        "🇳🇴 NO 02 - erduo",
+        "🇳🇴 NO 03 - erduo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - xiaohe"
+        "🇳🇴 NO 01 - erduo",
+        "🇳🇴 NO 02 - erduo",
+        "🇳🇴 NO 03 - erduo"
       ],
       "url": "https://www.google.com/generate_204"
     },
