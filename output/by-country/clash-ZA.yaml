@@ -6,31 +6,31 @@ log-level: info
 proxies:
 - name: 🇿🇦 ZA 01 - erduo
   type: ss
-  server: 102.133.165.160
-  port: 16233
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  udp: true
-- name: 🇿🇦 ZA 02 - erduo
-  type: ss
-  server: 102.37.156.224
+  server: 20.164.211.25
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: aduB9HGxQHjA2SBMRjkHX6
+  password: BhYMkBpjAjE6ixSw
   udp: true
-- name: 🇿🇦 ZA 03 - erduo
+- name: 🇿🇦 ZA 02 - erduo
   type: ss
   server: 20.164.43.105
   port: 443
   cipher: chacha20-ietf-poly1305
   password: BhYMkBpjAjE6ixSw
   udp: true
+- name: 🇿🇦 ZA 03 - erduo
+  type: ss
+  server: 102.133.165.160
+  port: 16233
+  cipher: chacha20-ietf-poly1305
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  udp: true
 - name: 🇿🇦 ZA 04 - erduo
   type: ss
-  server: 20.164.211.25
+  server: 102.37.156.224
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: BhYMkBpjAjE6ixSw
+  password: aduB9HGxQHjA2SBMRjkHX6
   udp: true
 - name: 🇿🇦 ZA 05 - erduo
   type: ss

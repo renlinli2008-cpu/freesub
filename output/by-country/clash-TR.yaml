@@ -6,6 +6,18 @@ log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - erduo
   type: vless
+  server: 151.241.226.201
+  port: 2053
+  uuid: e691b034-dfc9-4f22-80aa-6d4f6404a4df
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 02 - erduo
+  type: vless
   server: 195.162.69.203
   port: 8443
   uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
@@ -13,7 +25,16 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 195-162-69-203.sslip.io
-- name: 🇹🇷 土耳其 (Turkey) 02 - erduo
+- name: 🇹🇷 土耳其 (Turkey) 03 - erduo
+  type: vless
+  server: 195.162.69.203
+  port: 8443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 195-162-69-203.sslip.io
+- name: 🇹🇷 土耳其 (Turkey) 04 - erduo
   type: vless
   server: 151.241.226.201
   port: 2053
@@ -25,15 +46,6 @@ proxies:
     public-key: k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4
   servername: www.apple.com
   client-fingerprint: random
-- name: 🇹🇷 土耳其 (Turkey) 03 - erduo
-  type: vless
-  server: 195.162.69.203
-  port: 8443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 195-162-69-203.sslip.io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -42,6 +54,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - erduo
   - 🇹🇷 土耳其 (Turkey) 02 - erduo
   - 🇹🇷 土耳其 (Turkey) 03 - erduo
+  - 🇹🇷 土耳其 (Turkey) 04 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -50,5 +63,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - erduo
   - 🇹🇷 土耳其 (Turkey) 02 - erduo
   - 🇹🇷 土耳其 (Turkey) 03 - erduo
+  - 🇹🇷 土耳其 (Turkey) 04 - erduo
 rules:
 - MATCH,PROXIES
