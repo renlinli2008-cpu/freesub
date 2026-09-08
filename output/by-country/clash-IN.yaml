@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - erduo
-  type: vless
-  server: 104.18.2.67
-  port: 443
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: in.520782.xyz
-  network: ws
-  ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
-    headers:
-      Host: in.520782.xyz
-- name: 🇮🇳 印度 (India) 02 - erduo
   type: vmess
   server: 152.67.8.205
   port: 80
@@ -33,28 +19,17 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🇮🇳 印度 (India) 03 - erduo
-  type: ss
-  server: 172.105.39.124
-  port: 7002
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇳 印度 (India) 01 - erduo
-  - 🇮🇳 印度 (India) 02 - erduo
-  - 🇮🇳 印度 (India) 03 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇳 印度 (India) 01 - erduo
-  - 🇮🇳 印度 (India) 02 - erduo
-  - 🇮🇳 印度 (India) 03 - erduo
 rules:
 - MATCH,PROXIES
