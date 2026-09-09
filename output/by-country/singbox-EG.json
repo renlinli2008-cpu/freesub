@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 RO 01 - erduo",
-        "🇷🇴 RO 02 - erduo"
+        "🇪🇬 EG 01 - erduo",
+        "🇪🇬 EG 02 - erduo",
+        "🇪🇬 EG 03 - erduo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - erduo",
-        "🇷🇴 RO 02 - erduo"
+        "🇪🇬 EG 01 - erduo",
+        "🇪🇬 EG 02 - erduo",
+        "🇪🇬 EG 03 - erduo"
       ],
       "url": "https://www.google.com/generate_204"
     },
