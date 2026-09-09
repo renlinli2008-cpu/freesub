@@ -5,12 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - erduo
-  type: ss
-  server: 188.208.110.58
-  port: 8444
-  cipher: chacha20-ietf-poly1305
-  password: tunnel-astrovpn_official
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - erduo
   type: vless
   server: 84.235.244.108
@@ -24,6 +30,39 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 03 - erduo
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 04 - erduo
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 05 - erduo
+  type: ss
+  server: 188.208.110.58
+  port: 8444
+  cipher: chacha20-ietf-poly1305
+  password: tunnel-astrovpn_official
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -31,6 +70,9 @@ proxy-groups:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - erduo
   - 🇦🇪 阿联酋 (UAE) 02 - erduo
+  - 🇦🇪 阿联酋 (UAE) 03 - erduo
+  - 🇦🇪 阿联酋 (UAE) 04 - erduo
+  - 🇦🇪 阿联酋 (UAE) 05 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -38,5 +80,8 @@ proxy-groups:
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - erduo
   - 🇦🇪 阿联酋 (UAE) 02 - erduo
+  - 🇦🇪 阿联酋 (UAE) 03 - erduo
+  - 🇦🇪 阿联酋 (UAE) 04 - erduo
+  - 🇦🇪 阿联酋 (UAE) 05 - erduo
 rules:
 - MATCH,PROXIES

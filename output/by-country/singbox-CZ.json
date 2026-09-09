@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇿 UZ 01 - erduo"
+        "🇨🇿 CZ 01 - erduo",
+        "🇨🇿 CZ 02 - erduo",
+        "🇨🇿 CZ 03 - erduo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 UZ 01 - erduo"
+        "🇨🇿 CZ 01 - erduo",
+        "🇨🇿 CZ 02 - erduo",
+        "🇨🇿 CZ 03 - erduo"
       ],
       "url": "https://www.google.com/generate_204"
     },
