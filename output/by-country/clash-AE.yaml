@@ -6,20 +6,20 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - erduo
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 172.67.192.84
+  port: 2095
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /juvsrnmgdu8i0179k5
     headers:
-      Host: uae.unixzone.us
+      Host: index.harmonica02.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 02 - erduo
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -53,6 +53,32 @@ proxies:
   udp: true
 - name: 🇦🇪 阿联酋 (UAE) 05 - erduo
   type: vless
+  server: 45.130.125.201
+  port: 80
+  uuid: dc8a9493-c54a-459e-d060-81a700000001
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-core.netizo09.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 06 - erduo
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - erduo
+  type: vless
   server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
@@ -64,7 +90,34 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - erduo
+- name: 🇦🇪 阿联酋 (UAE) 08 - erduo
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 09 - erduo
+  type: vless
+  server: 104.17.147.22
+  port: 443
+  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000005
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: relay.lunetcloud.ir
+  network: ws
+  ws-opts:
+    path: /lunetnetwork
+    headers:
+      Host: relay.lunetcloud.ir
+- name: 🇦🇪 阿联酋 (UAE) 10 - erduo
   type: vless
   server: 84.235.244.108
   port: 22573
@@ -88,6 +141,10 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - erduo
   - 🇦🇪 阿联酋 (UAE) 05 - erduo
   - 🇦🇪 阿联酋 (UAE) 06 - erduo
+  - 🇦🇪 阿联酋 (UAE) 07 - erduo
+  - 🇦🇪 阿联酋 (UAE) 08 - erduo
+  - 🇦🇪 阿联酋 (UAE) 09 - erduo
+  - 🇦🇪 阿联酋 (UAE) 10 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -99,5 +156,9 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - erduo
   - 🇦🇪 阿联酋 (UAE) 05 - erduo
   - 🇦🇪 阿联酋 (UAE) 06 - erduo
+  - 🇦🇪 阿联酋 (UAE) 07 - erduo
+  - 🇦🇪 阿联酋 (UAE) 08 - erduo
+  - 🇦🇪 阿联酋 (UAE) 09 - erduo
+  - 🇦🇪 阿联酋 (UAE) 10 - erduo
 rules:
 - MATCH,PROXIES

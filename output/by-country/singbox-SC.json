@@ -6,14 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - erduo"
+        "🇸🇨 SC 01 - erduo",
+        "🇸🇨 SC 02 - erduo",
+        "🇸🇨 SC 03 - erduo",
+        "🇸🇨 SC 04 - erduo",
+        "🇸🇨 SC 05 - erduo",
+        "🇸🇨 SC 06 - erduo",
+        "🇸🇨 SC 07 - erduo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - erduo"
+        "🇸🇨 SC 01 - erduo",
+        "🇸🇨 SC 02 - erduo",
+        "🇸🇨 SC 03 - erduo",
+        "🇸🇨 SC 04 - erduo",
+        "🇸🇨 SC 05 - erduo",
+        "🇸🇨 SC 06 - erduo",
+        "🇸🇨 SC 07 - erduo"
       ],
       "url": "https://www.google.com/generate_204"
     },
