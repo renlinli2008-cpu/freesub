@@ -6,9 +6,9 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - erduo
   type: vless
-  server: 203.218.231.156
+  server: 186b6f53-tla000-tvb36r-1qwom.hk3.hyhuawei.com
   port: 443
-  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
   udp: true
   tls: true
   skip-cert-verify: true
@@ -18,21 +18,21 @@ proxies:
   client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - erduo
   type: vless
-  server: 172.64.52.60
-  port: 2087
+  server: 172.67.217.240
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /?ed=2560
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 - name: 🇰🇷 韩国 (South Korea) 03 (家宽) - erduo
   type: vless
-  server: 104.18.38.47
+  server: 104.16.151.21
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -44,7 +44,35 @@ proxies:
     path: ?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - erduo
+- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - erduo
+  type: vless
+  server: 172.64.149.209
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - erduo
+  type: vless
+  server: 60.248.219.78
+  port: 443
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - erduo
   type: vless
   server: 118.167.200.67
   port: 24215
@@ -55,15 +83,8 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - erduo
-  type: ss
-  server: 36.224.152.189
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 06 (家宽) - erduo
+  client-fingerprint: ios
+- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - erduo
   type: vless
   server: 188.114.97.6
   port: 443
@@ -77,16 +98,9 @@ proxies:
     path: /?ed=2560
     headers:
       Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - erduo
-  type: ss
-  server: 36.224.174.174
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
 - name: 🇰🇷 韩国 (South Korea) 08 (家宽) - erduo
   type: vless
-  server: 104.18.40.152
+  server: 172.64.144.66
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -100,8 +114,8 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇰🇷 韩国 (South Korea) 09 (家宽) - erduo
   type: vless
-  server: 172.64.53.42
-  port: 2087
+  server: 104.21.33.59
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -109,61 +123,12 @@ proxies:
   servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇰🇷 韩国 (South Korea) 10 (家宽) - erduo
   type: vless
-  server: 172.64.53.194
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - erduo
-  type: vless
-  server: 60.248.219.53
-  port: 443
-  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 60.248.219.53
-- name: 🇰🇷 韩国 (South Korea) 12 (家宽) - erduo
-  type: vless
   server: 172.64.146.211
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 13 (家宽) - erduo
-  type: ss
-  server: 115.161.136.145
-  port: 10099
-  cipher: chacha20-ietf-poly1305
-  password: '12242'
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 14 (家宽) - erduo
-  type: vless
-  server: 104.19.214.146
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -183,17 +148,13 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - erduo
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - erduo
   - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - erduo
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - erduo
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - erduo
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 08 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 09 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 10 (家宽) - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - erduo
-  - 🇰🇷 韩国 (South Korea) 12 (家宽) - erduo
-  - 🇰🇷 韩国 (South Korea) 13 (家宽) - erduo
-  - 🇰🇷 韩国 (South Korea) 14 (家宽) - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -202,16 +163,12 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - erduo
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - erduo
   - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - erduo
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - erduo
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - erduo
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 08 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 09 (家宽) - erduo
   - 🇰🇷 韩国 (South Korea) 10 (家宽) - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - erduo
-  - 🇰🇷 韩国 (South Korea) 12 (家宽) - erduo
-  - 🇰🇷 韩国 (South Korea) 13 (家宽) - erduo
-  - 🇰🇷 韩国 (South Korea) 14 (家宽) - erduo
 rules:
 - MATCH,PROXIES
