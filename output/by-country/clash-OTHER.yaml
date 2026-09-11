@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - erduo
   type: vless
-  server: 104.16.151.21
+  server: 104.19.214.97
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -20,190 +20,22 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 02 - erduo
   type: vless
-  server: 172.64.53.74
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.67.190.103
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: 9-M16.ChiaNG-RAI2036.KDNS.fR
   network: ws
   ws-opts:
-    path: /
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: 9-m16.chiAng-rAI2036.kDNS.Fr
 - name: 🌐 其他地区 (Other) 03 - erduo
   type: vless
   server: 104.18.42.163
   port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 04 - erduo
-  type: vless
-  server: 172.64.53.194
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 05 - erduo
-  type: vless
-  server: 172.64.52.230
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 06 - erduo
-  type: vless
-  server: 172.64.147.104
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 07 - erduo
-  type: vless
-  server: 172.64.52.182
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 08 - erduo
-  type: vless
-  server: 172.64.52.60
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 09 - erduo
-  type: vless
-  server: 104.19.215.97
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 10 - erduo
-  type: vless
-  server: 172.67.132.194
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-m13.AyutTHAYa-8.kDnS.FR
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 1-m13.aYUTThAya-8.KDNs.fR
-- name: 🌐 其他地区 (Other) 11 - erduo
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 12 - erduo
-  type: vless
-  server: 172.64.53.87
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 13 - erduo
-  type: vless
-  server: 172.64.52.230
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 14 - erduo
-  type: vless
-  server: 172.64.149.209
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 15 - erduo
-  type: vless
-  server: 104.18.42.163
-  port: 2053
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -214,118 +46,21 @@ proxies:
     path: /
     headers:
       Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 16 - erduo
+- name: 🌐 其他地区 (Other) 04 - erduo
   type: vless
-  server: 104.18.42.54
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 17 - erduo
-  type: vless
-  server: 104.16.150.108
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 18 - erduo
-  type: vless
-  server: 172.64.52.60
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 19 - erduo
-  type: vless
-  server: 104.16.150.246
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 20 - erduo
-  type: vless
-  server: 172.67.156.147
+  server: 104.21.83.140
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: 0-m16.ChIANG-maI2032.kdNS.fr
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
     headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 21 - erduo
-  type: vless
-  server: 172.64.53.42
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 22 - erduo
-  type: vless
-  server: 108.162.198.178
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 23 - erduo
-  type: vless
-  server: 104.19.214.146
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 24 - erduo
+      Host: 0-m16.ChIAng-Mai2032.kdnS.fR
+- name: 🌐 其他地区 (Other) 05 - erduo
   type: vless
   server: 172.64.146.211
   port: 2087
@@ -339,37 +74,301 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 25 - erduo
+- name: 🌐 其他地区 (Other) 06 - erduo
   type: vless
-  server: 172.67.133.136
+  server: 172.67.176.60
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3-M19.SoUtH-afRIcA.CCwu.Cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 3-m19.south-afriCa.Ccwu.Cc
+- name: 🌐 其他地区 (Other) 07 - erduo
+  type: vless
+  server: 104.19.45.195
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 08 - erduo
+  type: vless
+  server: 172.64.53.215
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 09 - erduo
+  type: vless
+  server: 8.35.211.145
+  port: 8443
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🌐 其他地区 (Other) 10 - erduo
+  type: vless
+  server: 172.64.53.74
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 11 - erduo
+  type: vless
+  server: 104.18.42.163
+  port: 2053
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 12 - erduo
+  type: vless
+  server: 104.18.42.163
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 13 - erduo
+  type: vless
+  server: 104.19.215.97
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 14 - erduo
+  type: vless
+  server: 172.67.131.46
   port: 443
   uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 4-m13.1332aFdC-0737-4BB1-8cA8-EE4f0cd20BC6.KDnS.FR
+  servername: 5-M13.0943e131-87f4-4B7F-bC60-9D984cc0adA2.kdNS.fR
   network: ws
   ws-opts:
     path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: 4-m13.1332AfDC-0737-4bB1-8cA8-EE4f0cd20Bc6.kDNS.Fr
-- name: 🌐 其他地区 (Other) 26 - erduo
+      Host: 5-M13.0943E131-87f4-4b7F-bC60-9d984cC0ADA2.kDns.fr
+- name: 🌐 其他地区 (Other) 15 - erduo
   type: vless
-  server: 104.17.25.208
-  port: 2096
-  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  server: 104.18.42.54
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fq.jp188.dpdns.org
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
+    path: /
     headers:
-      Host: fq.jp188.dpdns.org
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 16 - erduo
+  type: vless
+  server: 172.64.149.209
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 17 - erduo
+  type: vless
+  server: 104.16.150.130
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 18 - erduo
+  type: vless
+  server: 104.18.38.47
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 19 - erduo
+  type: vless
+  server: 108.162.198.178
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 20 - erduo
+  type: vless
+  server: 108.162.198.178
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 21 - erduo
+  type: vless
+  server: 172.67.118.45
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 22 - erduo
+  type: vless
+  server: 172.64.149.209
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 23 - erduo
+  type: vless
+  server: 8.39.125.245
+  port: 2096
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🌐 其他地区 (Other) 24 - erduo
+  type: vless
+  server: 172.64.52.68
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 25 - erduo
+  type: vless
+  server: 104.17.3.81
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 26 - erduo
+  type: vless
+  server: 104.25.248.101
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 27 - erduo
   type: vless
-  server: 104.18.40.152
+  server: 172.64.53.240
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -383,90 +382,6 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 28 - erduo
   type: vless
-  server: 172.64.52.182
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 29 - erduo
-  type: vless
-  server: 172.67.71.160
-  port: 443
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mianfei-73q.pages.dev
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
-- name: 🌐 其他地区 (Other) 30 - erduo
-  type: vless
-  server: 8.6.112.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 31 - erduo
-  type: vless
-  server: 104.18.42.54
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 32 - erduo
-  type: vless
-  server: 104.18.38.47
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 33 - erduo
-  type: vless
-  server: 172.64.53.60
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 34 - erduo
-  type: vless
   server: 172.67.158.193
   port: 443
   uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
@@ -479,10 +394,38 @@ proxies:
     path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
       Host: 3-M13.aYUTThaYA-XX.KDNS.fR
-- name: 🌐 其他地区 (Other) 35 - erduo
+- name: 🌐 其他地区 (Other) 29 - erduo
   type: vless
-  server: 172.64.52.97
-  port: 2053
+  server: 104.18.33.76
+  port: 2087
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🌐 其他地区 (Other) 30 - erduo
+  type: vless
+  server: 104.21.16.216
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2-m19.Oman-LInE.KdnS.fR
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 2-M19.oman-liNe.Kdns.Fr
+- name: 🌐 其他地区 (Other) 31 - erduo
+  type: vless
+  server: 172.64.52.230
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -493,6 +436,62 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 32 - erduo
+  type: vless
+  server: 172.64.52.68
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 33 - erduo
+  type: vless
+  server: 172.67.170.204
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3-M19.iKL.cCwu.cC
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 3-m19.IKl.CcWu.CC
+- name: 🌐 其他地区 (Other) 34 - erduo
+  type: vless
+  server: 104.21.39.176
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-M13.aYuttHAYa.KDns.fr
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 4-M13.AYUtTHAya.KdNS.fr
+- name: 🌐 其他地区 (Other) 35 - erduo
+  type: vless
+  server: 104.17.210.74
+  port: 2083
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
 - name: 🌐 其他地区 (Other) 36 - erduo
   type: vless
   server: 172.64.53.215
@@ -509,284 +508,19 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 37 - erduo
   type: vless
-  server: 104.21.69.218
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  server: 172.64.53.240
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 7-m20.cd6b506e-5a88-4c5d-9e11-906f39613c04.kdns.fr
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    path: /
     headers:
-      Host: 7-m20.cd6b506e-5a88-4c5d-9e11-906f39613c04.kdns.fr
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 38 - erduo
-  type: vless
-  server: 172.64.52.68
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 39 - erduo
-  type: vless
-  server: 172.64.52.68
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 40 - erduo
-  type: vless
-  server: 104.17.3.81
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 41 - erduo
-  type: vless
-  server: 172.64.52.68
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 42 - erduo
-  type: vless
-  server: 108.162.198.178
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 43 - erduo
-  type: vless
-  server: 8.39.125.70
-  port: 2053
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mianfei-73q.pages.dev
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
-- name: 🌐 其他地区 (Other) 44 - erduo
-  type: vless
-  server: 172.64.53.215
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 45 - erduo
-  type: vless
-  server: 104.16.150.130
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 46 - erduo
-  type: vless
-  server: 172.64.52.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 47 - erduo
-  type: vless
-  server: 104.21.41.153
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 6-M13.aYUtthaYa-X.kDns.FR
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 6-M13.aYUTthAya-X.KDNS.Fr
-- name: 🌐 其他地区 (Other) 48 - erduo
-  type: vless
-  server: 172.64.149.209
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 49 - erduo
-  type: vless
-  server: 104.17.110.46
-  port: 2087
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mianfei-73q.pages.dev
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
-- name: 🌐 其他地区 (Other) 50 - erduo
-  type: vless
-  server: 172.64.53.74
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 51 - erduo
-  type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 52 - erduo
-  type: vless
-  server: 172.64.52.68
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 53 - erduo
-  type: vless
-  server: 104.21.83.140
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 0-m16.ChIANG-maI2032.kdNS.fr
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 0-m16.ChIAng-Mai2032.kdnS.fR
-- name: 🌐 其他地区 (Other) 54 - erduo
-  type: vless
-  server: 104.19.45.195
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 55 - erduo
-  type: vless
-  server: 172.64.145.202
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 56 - erduo
-  type: vless
-  server: 104.19.215.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 57 - erduo
   type: vless
   server: 104.18.38.47
   port: 2087
@@ -800,37 +534,37 @@ proxies:
     path: /
     headers:
       Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 58 - erduo
+- name: 🌐 其他地区 (Other) 39 - erduo
   type: vless
-  server: 172.64.147.104
-  port: 2053
+  server: 172.64.145.93
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 59 - erduo
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 40 - erduo
   type: vless
-  server: 104.21.33.59
+  server: 172.67.71.160
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: mianfei-73q.pages.dev
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /proxyip=154.3.33.43
     headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 60 - erduo
+      Host: mianfei-73q.pages.dev
+- name: 🌐 其他地区 (Other) 41 - erduo
   type: vless
-  server: 104.16.150.7
+  server: 172.64.149.209
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -842,7 +576,35 @@ proxies:
     path: /fp=chrome
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 61 - erduo
+- name: 🌐 其他地区 (Other) 42 - erduo
+  type: vless
+  server: 172.64.53.42
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 43 - erduo
+  type: vless
+  server: 104.19.214.98
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 44 - erduo
   type: vless
   server: 104.18.33.76
   port: 2087
@@ -856,35 +618,7 @@ proxies:
     path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
     headers:
       Host: fq.jp188.dpdns.org
-- name: 🌐 其他地区 (Other) 62 - erduo
-  type: vless
-  server: 172.64.146.211
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 63 - erduo
-  type: vless
-  server: 172.64.145.93
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 64 - erduo
+- name: 🌐 其他地区 (Other) 45 - erduo
   type: vless
   server: 172.64.145.166
   port: 2087
@@ -898,78 +632,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 65 - erduo
+- name: 🌐 其他地区 (Other) 46 - erduo
   type: vless
-  server: 108.162.198.178
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 66 - erduo
-  type: vless
-  server: 8.35.211.145
-  port: 8443
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mianfei-73q.pages.dev
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
-- name: 🌐 其他地区 (Other) 67 - erduo
-  type: vless
-  server: 104.19.214.98
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 68 - erduo
-  type: vless
-  server: 172.67.118.45
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 69 - erduo
-  type: vless
-  server: 104.16.247.193
-  port: 2096
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mianfei-73q.pages.dev
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
-- name: 🌐 其他地区 (Other) 70 - erduo
-  type: vless
-  server: 172.64.52.24
+  server: 104.16.150.246
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -981,188 +646,7 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 71 - erduo
-  type: vless
-  server: 172.64.52.173
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 72 - erduo
-  type: vless
-  server: 172.67.179.82
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
-- name: 🌐 其他地区 (Other) 73 - erduo
-  type: vless
-  server: 8.39.125.245
-  port: 2096
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mianfei-73q.pages.dev
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
-- name: 🌐 其他地区 (Other) 74 - erduo
-  type: vless
-  server: 172.64.52.97
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 75 - erduo
-  type: vless
-  server: 104.25.248.101
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 76 - erduo
-  type: vless
-  server: 188.114.97.6
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 77 - erduo
-  type: vless
-  server: 104.19.215.97
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 78 - erduo
-  type: vless
-  server: 172.64.53.194
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 79 - erduo
-  type: vless
-  server: 172.64.53.74
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 80 - erduo
-  type: vless
-  server: 172.64.52.68
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 81 - erduo
-  type: vless
-  server: 172.64.52.175
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 82 - erduo
-  type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 83 - erduo
-  type: vless
-  server: 104.19.214.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 84 - erduo
+- name: 🌐 其他地区 (Other) 47 - erduo
   type: vless
   server: 104.17.159.189
   port: 443
@@ -1176,23 +660,64 @@ proxies:
     path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57fp=chrome
     headers:
       Host: fq.jp188.dpdns.org
-- name: 🌐 其他地区 (Other) 85 - erduo
+- name: 🌐 其他地区 (Other) 48 - erduo
   type: vless
-  server: 104.16.151.21
+  server: 172.67.140.160
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: 4-stAtIc-img-m13.xDc.cCWu.Cc
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 4-STaTiC-img-m13.Xdc.CCWu.Cc
+- name: 🌐 其他地区 (Other) 49 - erduo
+  type: vless
+  server: 172.67.198.236
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
+  network: ws
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 4-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
+- name: 🌐 其他地区 (Other) 50 - erduo
+  type: vless
+  server: 104.17.25.208
+  port: 2096
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🌐 其他地区 (Other) 51 - erduo
+  type: vless
+  server: 108.162.198.178
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 86 - erduo
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 52 - erduo
   type: vless
-  server: 104.16.150.108
+  server: 172.64.53.87
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1204,9 +729,65 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 87 - erduo
+- name: 🌐 其他地区 (Other) 53 - erduo
   type: vless
-  server: 172.64.146.211
+  server: 172.64.149.209
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 54 - erduo
+  type: vless
+  server: 8.6.112.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 55 - erduo
+  type: vless
+  server: 172.64.52.230
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 56 - erduo
+  type: vless
+  server: 104.17.25.208
+  port: 2096
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🌐 其他地区 (Other) 57 - erduo
+  type: vless
+  server: 104.19.215.97
   port: 2083
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1218,21 +799,105 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 88 - erduo
+- name: 🌐 其他地区 (Other) 58 - erduo
   type: vless
-  server: 104.18.42.163
+  server: 172.64.52.60
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 89 - erduo
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 59 - erduo
+  type: vless
+  server: 172.64.52.97
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 60 - erduo
+  type: vless
+  server: 104.21.32.105
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+  network: ws
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 3-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+- name: 🌐 其他地区 (Other) 61 - erduo
+  type: vless
+  server: 172.67.155.252
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2-m13.0ee25773-D3D3-479D-a8fF-3F51D1D20031.kDNs.fR
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 2-m13.0ee25773-D3d3-479D-a8ff-3F51d1D20031.kDnS.Fr
+- name: 🌐 其他地区 (Other) 62 - erduo
+  type: vless
+  server: 172.64.52.175
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 63 - erduo
+  type: vless
+  server: 172.64.52.68
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 64 - erduo
+  type: vless
+  server: 104.21.88.158
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: M13-OnLINE.TaiPeI102.DPDns.Org
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: m13-onLInE.tAipeI102.dpDns.Org
+- name: 🌐 其他地区 (Other) 65 - erduo
   type: vless
   server: 172.64.52.173
   port: 2087
@@ -1246,21 +911,35 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 90 - erduo
+- name: 🌐 其他地区 (Other) 66 - erduo
   type: vless
-  server: 172.64.145.93
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.21.14.84
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: ASsETS-CdN-M13-3.taIpei108.dPDNs.OrG
   network: ws
   ws-opts:
-    path: /
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 91 - erduo
+      Host: AssETs-CdN-m13-3.tAIpEi108.dpDns.ORG
+- name: 🌐 其他地区 (Other) 67 - erduo
+  type: vless
+  server: 104.21.83.140
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 0-m16.ChIANG-maI2032.kdNS.fr
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    headers:
+      Host: 0-m16.ChIAng-Mai2032.kdnS.fR
+- name: 🌐 其他地区 (Other) 68 - erduo
   type: vless
   server: 104.25.248.101
   port: 2087
@@ -1274,10 +953,334 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 69 - erduo
+  type: vless
+  server: 104.21.33.59
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 70 - erduo
+  type: vless
+  server: 104.17.110.46
+  port: 2087
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🌐 其他地区 (Other) 71 - erduo
+  type: vless
+  server: 172.67.133.136
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m13.1332aFdC-0737-4BB1-8cA8-EE4f0cd20BC6.KDnS.FR
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 4-m13.1332AfDC-0737-4bB1-8cA8-EE4f0cd20Bc6.kDNS.Fr
+- name: 🌐 其他地区 (Other) 72 - erduo
+  type: vless
+  server: 104.18.40.152
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 73 - erduo
+  type: vless
+  server: 172.64.145.202
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 74 - erduo
+  type: vless
+  server: 172.64.145.93
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 75 - erduo
+  type: vless
+  server: 104.21.8.136
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+  network: ws
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 4-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+- name: 🌐 其他地区 (Other) 76 - erduo
+  type: vless
+  server: 104.19.215.97
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 77 - erduo
+  type: vless
+  server: 172.67.179.82
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
+  network: ws
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
+- name: 🌐 其他地区 (Other) 78 - erduo
+  type: vless
+  server: 104.16.151.21
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 79 - erduo
+  type: vless
+  server: 172.64.147.104
+  port: 2053
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 80 - erduo
+  type: vless
+  server: 172.64.52.173
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 81 - erduo
+  type: vless
+  server: 8.39.125.70
+  port: 2053
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🌐 其他地区 (Other) 82 - erduo
+  type: vless
+  server: 172.64.52.182
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 83 - erduo
+  type: vless
+  server: 172.64.53.74
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 84 - erduo
+  type: vless
+  server: 172.64.53.194
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 85 - erduo
+  type: vless
+  server: 104.18.42.54
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 86 - erduo
+  type: vmess
+  server: 172.67.161.144
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🌐 其他地区 (Other) 87 - erduo
+  type: vless
+  server: 104.19.214.98
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 88 - erduo
+  type: vless
+  server: 104.21.80.252
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1-M19.ALbania.CcWu.CC
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 1-M19.alBAniA.Ccwu.CC
+- name: 🌐 其他地区 (Other) 89 - erduo
+  type: vless
+  server: 104.21.5.245
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m13-StATIC-CSS.XcV.Ccwu.cc
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 4-M13-sTatic-csS.Xcv.cCWU.CC
+- name: 🌐 其他地区 (Other) 90 - erduo
+  type: vless
+  server: 172.64.52.60
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 91 - erduo
+  type: vless
+  server: 172.64.53.60
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 92 - erduo
   type: vless
-  server: 104.16.150.130
-  port: 2087
+  server: 172.64.52.68
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1304,7 +1307,7 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 94 - erduo
   type: vless
-  server: 104.19.214.98
+  server: 104.16.150.130
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1318,7 +1321,7 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 95 - erduo
   type: vless
-  server: 172.64.53.240
+  server: 172.64.145.166
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1332,8 +1335,8 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 96 - erduo
   type: vless
-  server: 172.64.52.97
-  port: 2096
+  server: 104.16.150.108
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1346,21 +1349,22 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 97 - erduo
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: a.cwvps.eu.org
   network: ws
   ws-opts:
-    path: /fp
+    path: /ws
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: a.cwvps.eu.org
 - name: 🌐 其他地区 (Other) 98 - erduo
   type: vless
-  server: 172.64.52.173
-  port: 2083
+  server: 172.64.146.211
+  port: 8443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1373,18 +1377,130 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 99 - erduo
   type: vless
-  server: 104.24.0.21
+  server: 172.67.195.150
   port: 443
-  uuid: 81f03cd3-8534-47ea-b544-2fc400000000
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fiLE-Io-17D765-NHn.stAgING-apI-Dd63ef.wOrKeRS.DeV
+  servername: 5-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
   network: ws
   ws-opts:
-    path: /sync
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
     headers:
-      Host: fiLe-iO-17d765-NHn.sTagInG-aPI-DD63EF.WORKerS.dEV
+      Host: 5-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+- name: 🌐 其他地区 (Other) 100 - erduo
+  type: vless
+  server: 172.64.146.211
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 101 - erduo
+  type: vless
+  server: 104.16.150.108
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 102 - erduo
+  type: vless
+  server: 172.64.52.175
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 103 - erduo
+  type: vless
+  server: 172.64.53.194
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 104 - erduo
+  type: vless
+  server: 172.64.52.24
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 105 - erduo
+  type: vless
+  server: 104.16.247.193
+  port: 2096
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🌐 其他地区 (Other) 106 - erduo
+  type: vless
+  server: 104.21.29.124
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
+  network: ws
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 5-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
+- name: 🌐 其他地区 (Other) 107 - erduo
+  type: vless
+  server: 104.21.58.93
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-M13.aYUTtHAya-XX.kDnS.fR
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 4-m13.aYUtThaYA-xx.KdnS.Fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1489,6 +1605,14 @@ proxy-groups:
   - 🌐 其他地区 (Other) 97 - erduo
   - 🌐 其他地区 (Other) 98 - erduo
   - 🌐 其他地区 (Other) 99 - erduo
+  - 🌐 其他地区 (Other) 100 - erduo
+  - 🌐 其他地区 (Other) 101 - erduo
+  - 🌐 其他地区 (Other) 102 - erduo
+  - 🌐 其他地区 (Other) 103 - erduo
+  - 🌐 其他地区 (Other) 104 - erduo
+  - 🌐 其他地区 (Other) 105 - erduo
+  - 🌐 其他地区 (Other) 106 - erduo
+  - 🌐 其他地区 (Other) 107 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1593,5 +1717,13 @@ proxy-groups:
   - 🌐 其他地区 (Other) 97 - erduo
   - 🌐 其他地区 (Other) 98 - erduo
   - 🌐 其他地区 (Other) 99 - erduo
+  - 🌐 其他地区 (Other) 100 - erduo
+  - 🌐 其他地区 (Other) 101 - erduo
+  - 🌐 其他地区 (Other) 102 - erduo
+  - 🌐 其他地区 (Other) 103 - erduo
+  - 🌐 其他地区 (Other) 104 - erduo
+  - 🌐 其他地区 (Other) 105 - erduo
+  - 🌐 其他地区 (Other) 106 - erduo
+  - 🌐 其他地区 (Other) 107 - erduo
 rules:
 - MATCH,PROXIES
