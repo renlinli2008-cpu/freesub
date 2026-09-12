@@ -6,18 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - erduo",
-        "🇸🇨 SC 02 - erduo",
-        "🇸🇨 SC 03 - erduo"
+        "🇫🇮 FI 01 - erduo",
+        "🇫🇮 FI 02 - erduo",
+        "🇫🇮 FI 03 - erduo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - erduo",
-        "🇸🇨 SC 02 - erduo",
-        "🇸🇨 SC 03 - erduo"
+        "🇫🇮 FI 01 - erduo",
+        "🇫🇮 FI 02 - erduo",
+        "🇫🇮 FI 03 - erduo"
       ],
       "url": "https://www.google.com/generate_204"
     },
