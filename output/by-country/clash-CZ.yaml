@@ -4,31 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇺 澳大利亚 (Australia) 01 - erduo
-  type: vless
-  server: 208.103.161.5
+- name: 🇨🇿 CZ 01 - erduo
+  type: vmess
+  server: 195.85.23.225
   port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  servername: renderer-stream-2-62.mirra.now
   network: ws
   ws-opts:
-    path: /
+    path: /api/v1/gpu-stream/socket
     headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+      Host: renderer-stream-2-62.mirra.now
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇺 澳大利亚 (Australia) 01 - erduo
+  - 🇨🇿 CZ 01 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇺 澳大利亚 (Australia) 01 - erduo
+  - 🇨🇿 CZ 01 - erduo
 rules:
 - MATCH,PROXIES
