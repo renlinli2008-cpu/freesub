@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - erduo",
-        "🇨🇾 CY 02 - erduo",
-        "🇨🇾 CY 03 - erduo"
+        "🇨🇾 CY 01 - erduo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - erduo",
-        "🇨🇾 CY 02 - erduo",
-        "🇨🇾 CY 03 - erduo"
+        "🇨🇾 CY 01 - erduo"
       ],
       "url": "https://www.google.com/generate_204"
     },
