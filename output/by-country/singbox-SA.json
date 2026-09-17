@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇸🇦 SA 01 - erduo",
+        "🇸🇦 SA 02 - erduo",
+        "🇸🇦 SA 03 - erduo",
+        "🇸🇦 SA 04 - erduo",
+        "🇸🇦 SA 05 - erduo",
+        "🇸🇦 SA 06 - erduo",
+        "🇸🇦 SA 07 - erduo",
+        "🇸🇦 SA 08 - erduo",
+        "🇸🇦 SA 09 - erduo",
+        "🇸🇦 SA 10 - erduo",
+        "🇸🇦 SA 11 - erduo",
+        "🇸🇦 SA 12 - erduo",
+        "🇸🇦 SA 13 - erduo"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇸🇦 SA 01 - erduo",
+        "🇸🇦 SA 02 - erduo",
+        "🇸🇦 SA 03 - erduo",
+        "🇸🇦 SA 04 - erduo",
+        "🇸🇦 SA 05 - erduo",
+        "🇸🇦 SA 06 - erduo",
+        "🇸🇦 SA 07 - erduo",
+        "🇸🇦 SA 08 - erduo",
+        "🇸🇦 SA 09 - erduo",
+        "🇸🇦 SA 10 - erduo",
+        "🇸🇦 SA 11 - erduo",
+        "🇸🇦 SA 12 - erduo",
+        "🇸🇦 SA 13 - erduo"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
