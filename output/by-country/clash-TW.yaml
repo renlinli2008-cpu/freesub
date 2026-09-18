@@ -5,21 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - erduo
-  type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 36.224.185.173
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7dba81fc3a0b.oylfmxz.cn
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 7dba81fc3a0b.oylfmxz.cn
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - erduo
   type: vless
   server: 60.248.219.78
@@ -35,174 +26,60 @@ proxies:
     headers:
       Host: 60.248.219.78
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - erduo
-  type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
+  type: vless
+  server: 60.248.219.52
   port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
+  uuid: f265b49a-70a3-407a-b17b-e45dfb9f255c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: ty986gfazs.cainiaohub.xyz
   network: ws
   ws-opts:
-    path: ''
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: ''
+      Host: 60.248.219.52
 - name: 🇹🇼 中国台湾 (Taiwan) 04 - erduo
   type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
 - name: 🇹🇼 中国台湾 (Taiwan) 05 - erduo
   type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
 - name: 🇹🇼 中国台湾 (Taiwan) 06 - erduo
   type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
 - name: 🇹🇼 中国台湾 (Taiwan) 07 - erduo
   type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 7dba81fc3a0b.oylfmxz.cn
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 7dba81fc3a0b.oylfmxz.cn
 - name: 🇹🇼 中国台湾 (Taiwan) 08 - erduo
-  type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 09 - erduo
-  type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 10 - erduo
-  type: vmess
-  server: 7dba81fc3a0b.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 11 - erduo
-  type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 12 - erduo
-  type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 13 - erduo
-  type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 14 - erduo
-  type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 15 - erduo
   type: vmess
   server: 165.154.195.38
   port: 35034
@@ -225,13 +102,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 06 - erduo
   - 🇹🇼 中国台湾 (Taiwan) 07 - erduo
   - 🇹🇼 中国台湾 (Taiwan) 08 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 09 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 10 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 11 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 12 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 13 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 14 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 15 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -245,12 +115,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 06 - erduo
   - 🇹🇼 中国台湾 (Taiwan) 07 - erduo
   - 🇹🇼 中国台湾 (Taiwan) 08 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 09 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 10 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 11 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 12 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 13 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 14 - erduo
-  - 🇹🇼 中国台湾 (Taiwan) 15 - erduo
 rules:
 - MATCH,PROXIES

@@ -6,94 +6,19 @@ log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - erduo
   type: vless
-  server: 104.18.31.37
+  server: 149.202.58.99
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5bc7860646e4
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: qzz0a4eou1ms.mlm-792d0942.workers.dev
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/5bc7860646e4
+    path: /vws/
     headers:
-      Host: qzz0a4eou1ms.mlm-792d0942.workers.dev
+      Host: 149.202.58.99
 - name: 🇫🇷 法国 (France) 02 - erduo
-  type: vless
-  server: 104.18.39.218
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇫🇷 法国 (France) 03 - erduo
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇫🇷 法国 (France) 04 - erduo
-  type: vless
-  server: 141.11.202.123
-  port: 443
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: notls.lukongtou.eu.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: notls.lukongtou.eu.org
-- name: 🇫🇷 法国 (France) 05 - erduo
-  type: vless
-  server: 108.162.198.178
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇫🇷 法国 (France) 06 - erduo
-  type: vless
-  server: 13.37.81.71
-  port: 22224
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 07 - erduo
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: XpnTeam-1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇫🇷 法国 (France) 08 - erduo
   type: vless
   server: 149.202.58.99
   port: 443
@@ -107,7 +32,28 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 09 - erduo
+- name: 🇫🇷 法国 (France) 03 - erduo
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 04 - erduo
+  type: ss
+  server: 51.255.13.232
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
+  udp: true
+- name: 🇫🇷 法国 (France) 05 - erduo
   type: vless
   server: 149.202.58.99
   port: 443
@@ -121,105 +67,56 @@ proxies:
     path: /vws/
     headers:
       Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 10 - erduo
+- name: 🇫🇷 法国 (France) 06 - erduo
   type: vless
-  server: 104.18.46.234
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇫🇷 法国 (France) 11 - erduo
-  type: vless
-  server: 199.232.78.160
+  server: 158.180.231.216
   port: 443
-  uuid: XpnTeam-2
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ssl.fastly.com
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /
+    path: /vws/
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇫🇷 法国 (France) 12 - erduo
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-  udp: true
-- name: 🇫🇷 法国 (France) 13 - erduo
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 07 - erduo
   type: vless
-  server: 162.159.43.187
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /vws/
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇫🇷 法国 (France) 14 - erduo
-  type: vless
-  server: 108.162.198.178
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 08 - erduo
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇫🇷 法国 (France) 15 - erduo
-  type: vless
-  server: 104.18.47.113
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  servername: ''
+- name: 🇫🇷 法国 (France) 09 - erduo
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇫🇷 法国 (France) 16 - erduo
-  type: vless
-  server: 162.159.24.131
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇫🇷 法国 (France) 17 - erduo
-  type: vless
-  server: 188.114.97.6
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+  servername: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -234,14 +131,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 07 - erduo
   - 🇫🇷 法国 (France) 08 - erduo
   - 🇫🇷 法国 (France) 09 - erduo
-  - 🇫🇷 法国 (France) 10 - erduo
-  - 🇫🇷 法国 (France) 11 - erduo
-  - 🇫🇷 法国 (France) 12 - erduo
-  - 🇫🇷 法国 (France) 13 - erduo
-  - 🇫🇷 法国 (France) 14 - erduo
-  - 🇫🇷 法国 (France) 15 - erduo
-  - 🇫🇷 法国 (France) 16 - erduo
-  - 🇫🇷 法国 (France) 17 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -256,13 +145,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 07 - erduo
   - 🇫🇷 法国 (France) 08 - erduo
   - 🇫🇷 法国 (France) 09 - erduo
-  - 🇫🇷 法国 (France) 10 - erduo
-  - 🇫🇷 法国 (France) 11 - erduo
-  - 🇫🇷 法国 (France) 12 - erduo
-  - 🇫🇷 法国 (France) 13 - erduo
-  - 🇫🇷 法国 (France) 14 - erduo
-  - 🇫🇷 法国 (France) 15 - erduo
-  - 🇫🇷 法国 (France) 16 - erduo
-  - 🇫🇷 法国 (France) 17 - erduo
 rules:
 - MATCH,PROXIES
