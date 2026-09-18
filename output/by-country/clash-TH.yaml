@@ -15,22 +15,23 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /mall/china/doc?ed=2560fp=chrome
+    path: /mall/china/doc?ed=2560
     headers:
       Host: cdn8848.776676.xyz
 - name: 🇹🇭 TH 02 - erduo
   type: vless
-  server: 103.86.49.57
-  port: 80
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  server: 8.222.70.238
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /ws
+    path: /mall/china/doc?ed=2560fp=chrome
     headers:
-      Host: aIs.SpEeDtEsT.nEt
+      Host: cdn8848.776676.xyz
 - name: 🇹🇭 TH 03 - erduo
   type: vmess
   server: 118.193.57.167
