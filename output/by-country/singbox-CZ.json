@@ -6,14 +6,38 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 CZ 01 - erduo"
+        "🇨🇿 CZ 01 - erduo",
+        "🇨🇿 CZ 02 - erduo",
+        "🇨🇿 CZ 03 - erduo",
+        "🇨🇿 CZ 04 - erduo",
+        "🇨🇿 CZ 05 - erduo",
+        "🇨🇿 CZ 06 - erduo",
+        "🇨🇿 CZ 07 - erduo",
+        "🇨🇿 CZ 08 - erduo",
+        "🇨🇿 CZ 09 - erduo",
+        "🇨🇿 CZ 10 - erduo",
+        "🇨🇿 CZ 11 - erduo",
+        "🇨🇿 CZ 12 - erduo",
+        "🇨🇿 CZ 13 - erduo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - erduo"
+        "🇨🇿 CZ 01 - erduo",
+        "🇨🇿 CZ 02 - erduo",
+        "🇨🇿 CZ 03 - erduo",
+        "🇨🇿 CZ 04 - erduo",
+        "🇨🇿 CZ 05 - erduo",
+        "🇨🇿 CZ 06 - erduo",
+        "🇨🇿 CZ 07 - erduo",
+        "🇨🇿 CZ 08 - erduo",
+        "🇨🇿 CZ 09 - erduo",
+        "🇨🇿 CZ 10 - erduo",
+        "🇨🇿 CZ 11 - erduo",
+        "🇨🇿 CZ 12 - erduo",
+        "🇨🇿 CZ 13 - erduo"
       ],
       "url": "https://www.google.com/generate_204"
     },
