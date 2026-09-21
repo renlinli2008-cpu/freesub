@@ -6,22 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 BR 01 - erduo",
-        "🇧🇷 BR 02 - erduo",
-        "🇧🇷 BR 03 - erduo",
-        "🇧🇷 BR 04 - erduo",
-        "🇧🇷 BR 05 - erduo"
+        "🇧🇷 BR 01 - erduo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - erduo",
-        "🇧🇷 BR 02 - erduo",
-        "🇧🇷 BR 03 - erduo",
-        "🇧🇷 BR 04 - erduo",
-        "🇧🇷 BR 05 - erduo"
+        "🇧🇷 BR 01 - erduo"
       ],
       "url": "https://www.google.com/generate_204"
     },
