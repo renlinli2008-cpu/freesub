@@ -5,32 +5,25 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - erduo
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 02 - erduo
   type: vless
-  server: 34.64.149.137
-  port: 443
-  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 03 - erduo
+  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 02 - erduo
   type: ss
   server: 141.164.45.187
   port: 9090
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: 🇰🇷 韩国 (South Korea) 04 - erduo
+- name: 🇰🇷 韩国 (South Korea) 03 - erduo
   type: vless
   server: 34.64.149.137
   port: 443
@@ -41,8 +34,8 @@ proxies:
   reality-opts:
     public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 05 - erduo
+  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 04 - erduo
   type: vless
   server: 123.111.169.70
   port: 2083
@@ -56,14 +49,7 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 06 - erduo
-  type: ss
-  server: 141.164.45.187
-  port: 8091
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 07 - erduo
+- name: 🇰🇷 韩国 (South Korea) 05 - erduo
   type: vless
   server: 172.64.53.42
   port: 2087
@@ -77,6 +63,30 @@ proxies:
     path: ?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 06 - erduo
+  type: vless
+  server: 34.64.149.137
+  port: 443
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 07 - erduo
+  type: vless
+  server: 34.64.149.137
+  port: 443
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 08 - erduo
   type: vless
   server: 151.245.106.49
@@ -88,7 +98,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 09 - erduo
   type: vless
   server: 34.64.149.137
@@ -101,6 +111,13 @@ proxies:
     public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 10 - erduo
+  type: ss
+  server: 141.164.45.187
+  port: 5498
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -115,6 +132,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - erduo
   - 🇰🇷 韩国 (South Korea) 08 - erduo
   - 🇰🇷 韩国 (South Korea) 09 - erduo
+  - 🇰🇷 韩国 (South Korea) 10 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -129,5 +147,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - erduo
   - 🇰🇷 韩国 (South Korea) 08 - erduo
   - 🇰🇷 韩国 (South Korea) 09 - erduo
+  - 🇰🇷 韩国 (South Korea) 10 - erduo
 rules:
 - MATCH,PROXIES
