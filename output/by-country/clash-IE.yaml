@@ -4,24 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇪 BE 01 - erduo
+- name: 🇮🇪 IE 01 - erduo
   type: vless
-  server: 141.227.137.177
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇧🇪 BE 02 - erduo
-  type: vless
-  server: 141.227.186.38
-  port: 2053
+  server: 107.150.20.112
+  port: 8443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
@@ -32,10 +18,10 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: 🇧🇪 BE 03 - erduo
+- name: 🇮🇪 IE 02 - erduo
   type: vless
-  server: 141.227.137.177
-  port: 2053
+  server: 198.55.102.68
+  port: 2083
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
@@ -51,16 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇪 BE 01 - erduo
-  - 🇧🇪 BE 02 - erduo
-  - 🇧🇪 BE 03 - erduo
+  - 🇮🇪 IE 01 - erduo
+  - 🇮🇪 IE 02 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇪 BE 01 - erduo
-  - 🇧🇪 BE 02 - erduo
-  - 🇧🇪 BE 03 - erduo
+  - 🇮🇪 IE 01 - erduo
+  - 🇮🇪 IE 02 - erduo
 rules:
 - MATCH,PROXIES
