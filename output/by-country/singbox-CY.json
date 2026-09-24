@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - erduo",
-        "🇨🇦 加拿大 (Canada) 02 (家宽) - erduo"
+        "🇨🇾 CY 01 - erduo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - erduo",
-        "🇨🇦 加拿大 (Canada) 02 (家宽) - erduo"
+        "🇨🇾 CY 01 - erduo"
       ],
       "url": "https://www.google.com/generate_204"
     },
