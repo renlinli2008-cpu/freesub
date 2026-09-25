@@ -5,6 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - erduo
+  type: vless
+  server: me1.movieseryalirani.ir
+  port: 443
+  uuid: 63aaea7f-2847-4f41-afab-0836b1cf79d9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CxRZ7oJWwR7okmOoqEEbVYCSfTaBlNA6ycf_UniyeEk
+  servername: matrix-client.matrix.org
+  client-fingerprint: firefox
+- name: 🇫🇮 FI 02 - erduo
   type: vmess
   server: me6.movieseryalirani.ir
   port: 57361
@@ -14,9 +26,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇫🇮 FI 02 - erduo
+- name: 🇫🇮 FI 03 - erduo
   type: vless
-  server: k2.cloud--vpn.site
+  server: 151.101.56.6
   port: 443
   uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
   udp: true
@@ -28,6 +40,44 @@ proxies:
     path: /
     headers:
       Host: c12.com
+- name: 🇫🇮 FI 04 - erduo
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 05 - erduo
+  type: vless
+  server: 185.79.138.71
+  port: 448
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 06 - erduo
+  type: vless
+  server: 185.79.138.71
+  port: 448
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+  servername: www.samsung.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -35,6 +85,10 @@ proxy-groups:
   - AUTO
   - 🇫🇮 FI 01 - erduo
   - 🇫🇮 FI 02 - erduo
+  - 🇫🇮 FI 03 - erduo
+  - 🇫🇮 FI 04 - erduo
+  - 🇫🇮 FI 05 - erduo
+  - 🇫🇮 FI 06 - erduo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -42,5 +96,9 @@ proxy-groups:
   proxies:
   - 🇫🇮 FI 01 - erduo
   - 🇫🇮 FI 02 - erduo
+  - 🇫🇮 FI 03 - erduo
+  - 🇫🇮 FI 04 - erduo
+  - 🇫🇮 FI 05 - erduo
+  - 🇫🇮 FI 06 - erduo
 rules:
 - MATCH,PROXIES
